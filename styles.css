@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+p, span, div, a, input {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #303030;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    background: #569d56;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 3rem;
+}
+
+#user {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 1rem;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#user svg {
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li {
+    margin-right: 0.75rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main-section {
+    height: calc(100vh - 5rem);
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+}
+
+.main-section h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.main-section p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 8rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card h5 {
+    margin-top: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.list-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+}
+
+#description-data {
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.band-image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.band-name {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.band-followers {
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.band-genres {
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#list-section {
+    height: auto;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+#list-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background: #187C48;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#list-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-header.l4>ul:first-child {
+    width: 50%;
+}
+.list-header.l4>ul {
+    width: 25%;
+}
+
+#list-section ul>h5 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#listBody {
+    display: flex;
+    flex-direction: column;
+}
+
+#listBody div {
+    display: flex;
+    align-items: center;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: .15s ease-in-out;
+}
+
+#listBody .l4 ul:first-child {
+    width: 50%;
+}
+#listBody .l4 ul {
+    width: 25%;
+}
+#list-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#listBody ul li {
+    word-break: break-word;
+    font-size: 0.85rem;
+}
+
+.search-input {
+    background: #fff;
+    border: none;
+    display: inline-block;
+    padding: 0.25rem;
+}
